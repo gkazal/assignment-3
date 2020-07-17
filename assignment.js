@@ -3,7 +3,7 @@
 function feetToMile(feet){
 
     if(feet<1){
-        return 'Please give a positive value'
+        return 'Please give a valid input'
     }
 
     var mile = feet * 0.000189394
@@ -22,7 +22,7 @@ function feetToMile(feet){
 function woodCalculator(chair,table,bed){
 
     if(chair,table,bed < 1){
-        return 'pleas give psitive value'
+        return 'pleas give valid input'
     }
 
 
@@ -47,7 +47,7 @@ function brickCalculator(floor){
 
 
         if(floor == 0){
-            return 'Please Give a Positive input'
+            return 'Please Give a valid input'
         }
         else if(floor <= 0){
             return 'Please Give a Valid input'
@@ -94,7 +94,7 @@ function tinyFriend(string){
         
         // trying this extra, for bonus mark
         if(string[i].length < 1 || string == "" || string == " "){
-            return ' Your array list is empty'
+            return ' Your array list is empty or give a valid input'
         }  
         // end this session
         
